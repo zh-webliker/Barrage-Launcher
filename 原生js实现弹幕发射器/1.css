@@ -1,0 +1,41 @@
+.father-box{
+    width: 600px;
+    height:500px;
+    position: relative;
+    top:200px;
+    left:200px;
+}
+.accept-box{
+    width: 600px;
+    height:400px;
+    position: absolute;
+    border: 1px solid rgb(128, 124, 124);
+    overflow: hidden;
+}
+.button-box{
+    width: 600px;
+    height:50px;
+    margin-top:440px;
+    position: absolute;
+    display: flex;
+}
+.button-box button{
+    width: 50px;
+    height:34px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 0;
+}
+.button-box input{
+    width: 500px;
+    height:30px;
+    padding: 0;
+    margin: 0;
+}
+.danmu{
+    line-height: 20px;
+    width: 600px;
+    text-align: left;
+    position: absolute;
+}
