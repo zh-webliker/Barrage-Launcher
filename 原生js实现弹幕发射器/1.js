@@ -1,10 +1,10 @@
-var accept = document.getElementsByClassName("accept-box")[0];
+﻿var accept = document.getElementsByClassName("accept-box")[0];
 var Input = document.getElementById("input-box");
 var btn = document.getElementById('btn');
 
 btn.addEventListener('click',function(){
     if(Input.value==""){
-        alert('请重新输入')
+        alert('请你重新输入')
     }else{
         event();
         Input.value='';
